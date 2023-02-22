@@ -1,0 +1,23 @@
+{
+  "name": "movies-maikol-santos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Kenzie-Academy-Brasil-Developers/movies-MaikolSantos.git",
+  "author": "Maikol Santos <maikol.lourencon@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsnd --cls --rs --ignore-watch node_modules src/app.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.9.0",
+    "pg-format": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.16",
+    "@types/pg": "^8.6.6",
+    "@types/pg-format": "^1.0.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  }
+}
